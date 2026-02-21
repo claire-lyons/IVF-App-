@@ -1,0 +1,7 @@
+services:
+  bloom_fullstack:
+    build: ./
+    container_name: bloom_fullstack
+    # Using host network mode to access localhost PostgreSQL
+    network_mode: "host"
+    restart: always

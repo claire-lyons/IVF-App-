@@ -1,0 +1,266 @@
+[
+    {
+        "milestone_id": "IUI_DAY1_PERIOD",
+        "cycle_template_id": "IUI",
+        "stage_id": "IUI_FOLLICULAR",
+        "stage_name": "Follicular Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "Period starts new cycle\nHormones drop, lining sheds\nFatigue, cramps, bloating common"
+    },
+    {
+        "milestone_id": "IUI_BASELINE_BLOODS",
+        "cycle_template_id": "IUI",
+        "stage_id": "IUI_FOLLICULAR",
+        "stage_name": "Follicular Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "Period starts new cycle\nHormones drop, lining sheds\nFatigue, cramps, bloating common"
+    },
+    {
+        "milestone_id": "IUI_MONITORING_BLOODS",
+        "cycle_template_id": "IUI",
+        "stage_id": "IUI_FOLLICULAR",
+        "stage_name": "Follicular Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "Period starts new cycle\nHormones drop, lining sheds\nFatigue, cramps, bloating common"
+    },
+    {
+        "milestone_id": "IUI_MONITORING_SCAN",
+        "cycle_template_id": "IUI",
+        "stage_id": "IUI_FOLLICULAR",
+        "stage_name": "Follicular Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "Period starts new cycle\nHormones drop, lining sheds\nFatigue, cramps, bloating common"
+    },
+    {
+        "milestone_id": "FET_DAY1_PERIOD",
+        "cycle_template_id": "FET",
+        "stage_id": "FET_FOLLICULAR",
+        "stage_name": "Follicular Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "Period starts new cycle\nHormones drop, lining sheds\nFatigue, cramps, bloating common"
+    },
+    {
+        "milestone_id": "FET_MONITORING_BLOODS",
+        "cycle_template_id": "FET",
+        "stage_id": "FET_FOLLICULAR",
+        "stage_name": "Follicular Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "Period starts new cycle\nHormones drop, lining sheds\nFatigue, cramps, bloating common"
+    },
+    {
+        "milestone_id": "FET_MONITORING_SCAN",
+        "cycle_template_id": "FET",
+        "stage_id": "FET_FOLLICULAR",
+        "stage_name": "Follicular Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "Period starts new cycle\nHormones drop, lining sheds\nFatigue, cramps, bloating common"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_DAY1_PERIOD",
+        "cycle_template_id": "EGG_FREEZ",
+        "stage_id": "EGG_FREEZ_FOLLICULAR",
+        "stage_name": "Follicular Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "Period starts new cycle\nHormones drop, lining sheds\nFatigue, cramps, bloating common"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_BASELINE_BLOODS",
+        "cycle_template_id": "EGG_FREEZ",
+        "stage_id": "EGG_FREEZ_FOLLICULAR",
+        "stage_name": "Follicular Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "Period starts new cycle\nHormones drop, lining sheds\nFatigue, cramps, bloating common"
+    },
+    {
+        "milestone_id": "IVF_STIMULATION_START",
+        "cycle_template_id": "IVF",
+        "stage_id": "IVF_STIMULATION",
+        "stage_name": "Stimulation Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "FSH/LH injections stimulate follicles\nBloating, tenderness, fatigue possible\nMonitor scans, track symptoms"
+    },
+    {
+        "milestone_id": "IVF_MONITORING_BLOODS",
+        "cycle_template_id": "IVF",
+        "stage_id": "IVF_STIMULATION",
+        "stage_name": "Stimulation Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "FSH/LH injections stimulate follicles\nBloating, tenderness, fatigue possible\nMonitor scans, track symptoms"
+    },
+    {
+        "milestone_id": "IVF_MONITORING_SCAN",
+        "cycle_template_id": "IVF",
+        "stage_id": "IVF_STIMULATION",
+        "stage_name": "Stimulation Phase",
+        "stage_ui_priority": 1,
+        "stage_details": "FSH/LH injections stimulate follicles\nBloating, tenderness, fatigue possible\nMonitor scans, track symptoms"
+    },
+    {
+        "milestone_id": "IUI_TRIGGER",
+        "cycle_template_id": "IUI",
+        "stage_id": "IUI_OVULATION",
+        "stage_name": "Ovulation Phase",
+        "stage_ui_priority": 2,
+        "stage_details": "LH rises and egg release triggered\nMild twinges, spotting, bloating\nEat antioxidant-rich foods"
+    },
+    {
+        "milestone_id": "FET_LH_OV",
+        "cycle_template_id": "FET",
+        "stage_id": "FET_OVULATION",
+        "stage_name": "Ovulation Phase",
+        "stage_ui_priority": 2,
+        "stage_details": "LH rises and egg release triggered\nMild twinges, spotting, bloating\nEat antioxidant-rich foods"
+    },
+    {
+        "milestone_id": "FET_TRIGGER",
+        "cycle_template_id": "FET",
+        "stage_id": "FET_OVULATION",
+        "stage_name": "Ovulation Phase",
+        "stage_ui_priority": 2,
+        "stage_details": "LH rises and egg release triggered\nMild twinges, spotting, bloating\nEat antioxidant-rich foods"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_STIMULATION_START",
+        "cycle_template_id": "EGG_FREEZ",
+        "stage_id": "EGG_FREEZ_STIMULATION",
+        "stage_name": "Stimulation Phase",
+        "stage_ui_priority": 2,
+        "stage_details": "FSH/LH injections stimulate follicles\nBloating, tenderness, fatigue possible\nMonitor scans, track symptoms"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_MONITORING_BLOODS",
+        "cycle_template_id": "EGG_FREEZ",
+        "stage_id": "EGG_FREEZ_STIMULATION",
+        "stage_name": "Stimulation Phase",
+        "stage_ui_priority": 2,
+        "stage_details": "FSH/LH injections stimulate follicles\nBloating, tenderness, fatigue possible\nMonitor scans, track symptoms"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_MONITORING_SCAN",
+        "cycle_template_id": "EGG_FREEZ",
+        "stage_id": "EGG_FREEZ_STIMULATION",
+        "stage_name": "Stimulation Phase",
+        "stage_ui_priority": 2,
+        "stage_details": "FSH/LH injections stimulate follicles\nBloating, tenderness, fatigue possible\nMonitor scans, track symptoms"
+    },
+    {
+        "milestone_id": "IVF_ANTAGONIST_START",
+        "cycle_template_id": "IVF",
+        "stage_id": "IVF_ANTAGONIST",
+        "stage_name": "Antagonist Phase",
+        "stage_ui_priority": 2,
+        "stage_details": "Follicles grow, LH suppressed\nBloating, tenderness, mood swings\nFollow injection schedule"
+    },
+    {
+        "milestone_id": "IVF_TRIGGER",
+        "cycle_template_id": "IVF",
+        "stage_id": "IVF_ANTAGONIST",
+        "stage_name": "Antagonist Phase",
+        "stage_ui_priority": 2,
+        "stage_details": "Follicles grow, LH suppressed\nBloating, tenderness, mood swings\nFollow injection schedule"
+    },
+    {
+        "milestone_id": "IUI_PROGESTERONE_START",
+        "cycle_template_id": "IUI",
+        "stage_id": "IUI_LUTEAL",
+        "stage_name": "Luteal Phase",
+        "stage_ui_priority": 3,
+        "stage_details": "Progesterone rises, supports lining\nFatigue, bloating, breast tenderness\nGentle exercise, magnesium-rich foods"
+    },
+    {
+        "milestone_id": "FET_PROGESTERONE_START",
+        "cycle_template_id": "FET",
+        "stage_id": "FET_LUTEAL",
+        "stage_name": "Luteal Phase",
+        "stage_ui_priority": 3,
+        "stage_details": "Progesterone rises, supports lining\nFatigue, bloating, breast tenderness\nGentle exercise, magnesium-rich foods"
+    },
+    {
+        "milestone_id": "FET_TRANSFER",
+        "cycle_template_id": "FET",
+        "stage_id": "FET_LUTEAL",
+        "stage_name": "Luteal Phase",
+        "stage_ui_priority": 3,
+        "stage_details": "Progesterone rises, supports lining\nFatigue, bloating, breast tenderness\nGentle exercise, magnesium-rich foods"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_ANTAGONIST_START",
+        "cycle_template_id": "EGG_FREEZ",
+        "stage_id": "EGG_FREEZ_ANTAGONIST",
+        "stage_name": "Antagonist Phase",
+        "stage_ui_priority": 3,
+        "stage_details": "Follicles grow, LH suppressed\nBloating, tenderness, mood swings\nFollow injection schedule"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_TRIGGER",
+        "cycle_template_id": "EGG_FREEZ",
+        "stage_id": "EGG_FREEZ_ANTAGONIST",
+        "stage_name": "Antagonist Phase",
+        "stage_ui_priority": 3,
+        "stage_details": "Follicles grow, LH suppressed\nBloating, tenderness, mood swings\nFollow injection schedule"
+    },
+    {
+        "milestone_id": "IVF_EGG_RETRIEVAL",
+        "cycle_template_id": "IVF",
+        "stage_id": "IVF_RETRIEVAL",
+        "stage_name": "Retrieval Phase",
+        "stage_ui_priority": 3,
+        "stage_details": "Eggs retrieved and progesterone rises\nGroggy, bloating, cramps, nausea\nRest, hydrate, and avoid heavy lifting"
+    },
+    {
+        "milestone_id": "IVF_EMBRYO_TRANSFER",
+        "cycle_template_id": "IVF",
+        "stage_id": "IVF_RETRIEVAL",
+        "stage_name": "Retrieval Phase",
+        "stage_ui_priority": 3,
+        "stage_details": "Eggs retrieved and progesterone rises\nGroggy, bloating, cramps, nausea\nRest, hydrate, and avoid heavy lifting"
+    },
+    {
+        "milestone_id": "IUI_INSEMINATION",
+        "cycle_template_id": "IUI",
+        "stage_id": "IUI_WAIT",
+        "stage_name": "Two-Week Wait",
+        "stage_ui_priority": 4,
+        "stage_details": "Bloating, cramps, fatigue common\nGentle walks, rest, hydrate\nMagnesium-rich foods, avoid heavy lifting"
+    },
+    {
+        "milestone_id": "IUI_PREGNANCY_TEST",
+        "cycle_template_id": "IUI",
+        "stage_id": "IUI_WAIT",
+        "stage_name": "Two-Week Wait",
+        "stage_ui_priority": 4,
+        "stage_details": "Bloating, cramps, fatigue common\nGentle walks, rest, hydrate\nMagnesium-rich foods, avoid heavy lifting"
+    },
+    {
+        "milestone_id": "FET_PREGNANCY_TEST",
+        "cycle_template_id": "FET",
+        "stage_id": "FET_WAIT",
+        "stage_name": "Two-Week Wait",
+        "stage_ui_priority": 4,
+        "stage_details": "Bloating, cramps, fatigue common\nGentle walks, rest, hydrate and avoid heavy lifting"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_RETRIEVAL",
+        "cycle_template_id": "EGG_FREEZ",
+        "stage_id": "EGG_FREEZ_RETRIEVAL",
+        "stage_name": "Retrieval Phase",
+        "stage_ui_priority": 4,
+        "stage_details": "Eggs retrieved and progesterone rises\nGroggy, bloating, cramps, nausea\nRest, hydrate, and avoid heavy lifting"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_EGG_FREEZE",
+        "cycle_template_id": "EGG_FREEZ",
+        "stage_id": "EGG_FREEZ_RETRIEVAL",
+        "stage_name": "Retrieval Phase",
+        "stage_ui_priority": 4,
+        "stage_details": "Eggs retrieved and progesterone rises\nGroggy, bloating, cramps, nausea\nRest, hydrate, and avoid heavy lifting"
+    },
+    {
+        "milestone_id": "IVF_PREGNANCY_TEST",
+        "cycle_template_id": "IVF",
+        "stage_id": "IVF_TRANSFER",
+        "stage_name": "Transfer Phase",
+        "stage_ui_priority": 4,
+        "stage_details": "Prioritise gentle movement and reduce stress\nMagnesium-rich foods, stay hydrated"
+    }
+]

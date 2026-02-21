@@ -1,0 +1,310 @@
+{
+  "ivf_fresh": {
+    "name": "IVF Fresh Cycle",
+    "description": "Complete IVF cycle with fresh embryo transfer",
+    "duration": 35,
+    "milestones": [
+      {
+        "name": "Menstrual Cycle Starts",
+        "day": 1,
+        "medicalDetails": "Day 1 is marked by full period flow before midday. If after midday the following day is considered day 1.",
+        "patientInsights": "Normal menstrual flow",
+        "tips": [
+          "Mark the exact time flow starts",
+          "Call clinic if uncertain about timing",
+          "Prepare for treatment start"
+        ]
+      },
+      {
+        "name": "Stimulation Start", 
+        "day": 3,
+        "medicalDetails": "Daily hormone injections (FSH ± antagonist) to stimulate ovaries to grow multiple follicles.",
+        "patientInsights": "Daily needles, sometimes bloating, mood swings, headaches as Estrogen starts to rise.",
+        "tips": [
+          "Rotate injection sites",
+          "Stay hydrated", 
+          "Light exercise like walking can help with bloating"
+        ]
+      },
+      {
+        "name": "Monitoring Scan",
+        "day": 7,
+        "medicalDetails": "Ultrasound + blood test to check follicle growth and hormone levels.",
+        "patientInsights": "Transvaginal ultrasound (looking for 17–22mm follicles), Adjust medication dose depending on follicle size & estrogen. may feel bloated. Follicles grow steadily.",
+        "tips": [
+          "Wear comfortable clothes",
+          "Keep a snack for after bloods if you feel faint"
+        ]
+      },
+      {
+        "name": "Trigger Injection",
+        "day": 12,
+        "medicalDetails": "hCG or Lucrin injection to mature eggs for collection. Given at a precise time 34-36 hours exactly before collection.",
+        "patientInsights": "Some abdominal heaviness.",
+        "tips": [
+          "Set multiple reminders",
+          "Have partner/friend help",
+          "Rest afterwards"
+        ]
+      },
+      {
+        "name": "Egg Collection",
+        "day": 14,
+        "medicalDetails": "Eggs aspirated via transvaginal ultrasound under sedation.",
+        "patientInsights": "Day procedure, mild cramping/bloating, spotting afterwards.",
+        "tips": [
+          "Take the day off",
+          "Have a heat pack ready",
+          "Avoid driving after anaesthetic"
+        ]
+      },
+      {
+        "name": "Fertilisation Update",
+        "day": 15,
+        "medicalDetails": "Eggs inseminated (IVF) or ICSI performed. Embryo growth monitored daily.",
+        "patientInsights": "Phone call update, text message for lab updates on matured and fertilised number.",
+        "tips": [
+          "On average, about 70-80% of collected eggs mature",
+          "About 80% of mature eggs will fertilize",
+          "Keep phone nearby for updates"
+        ]
+      },
+      {
+        "name": "Fresh Embryo Transfer",
+        "day": 20,
+        "medicalDetails": "One embryo placed into uterus via a thin catheter.",
+        "patientInsights": "Feels like a pap smear, mild cramping possible.",
+        "tips": [
+          "Normal activity afterwards is safe",
+          "Mindfulness helps with \"two-week wait\"",
+          "Stay relaxed during procedure"
+        ]
+      },
+      {
+        "name": "Pregnancy Blood Test (BETA)",
+        "day": 32,
+        "medicalDetails": "hCG blood test ~10–12 days after transfer.",
+        "patientInsights": "Simple blood test, results usually same day",
+        "tips": [
+          "Morning test preferred",
+          "Continue medications until results",
+          "Have support person available"
+        ]
+      }
+    ]
+  },
+  "fet": {
+    "name": "Frozen Embryo Transfer (FET)",
+    "description": "Transfer of previously frozen embryo",
+    "duration": 25,
+    "milestones": [
+      {
+        "name": "Cycle Preparation",
+        "day": 1,
+        "medicalDetails": "Hormone tablets/patches or natural cycle tracking to prepare uterine lining.",
+        "patientInsights": "Extra monitoring appointments, possible mild side effects (nausea, breast tenderness).",
+        "tips": [
+          "Keep a diary of meds",
+          "Set reminders for medications",
+          "Track any side effects"
+        ]
+      },
+      {
+        "name": "Lining Scan",
+        "day": 10,
+        "medicalDetails": "Ultrasound to check endometrium thickness (≥7mm ideal).",
+        "patientInsights": "Transvaginal scan, can be quick and painless.",
+        "tips": [
+          "Drink water beforehand if full bladder requested",
+          "Wear comfortable clothing",
+          "Ask about lining quality"
+        ]
+      },
+      {
+        "name": "Frozen Embryo Transfer",
+        "day": 15,
+        "medicalDetails": "Thawed embryo placed into uterus.",
+        "patientInsights": "Same as fresh transfer, very quick.",
+        "tips": [
+          "Normal activity is fine",
+          "Relaxation strategies help during the wait",
+          "Stay calm during procedure"
+        ]
+      },
+      {
+        "name": "Pregnancy Blood Test (BETA)",
+        "day": 27,
+        "medicalDetails": "hCG blood test ~10–12 days after transfer.",
+        "patientInsights": "Simple blood test, results usually same day",
+        "tips": [
+          "Continue medications until results",
+          "Have support available",
+          "Morning test preferred"
+        ]
+      }
+    ]
+  },
+  "iui": {
+    "name": "Intrauterine Insemination (IUI)",
+    "description": "Artificial insemination procedure",
+    "duration": 20,
+    "milestones": [
+      {
+        "name": "Ovulation Induction",
+        "day": 3,
+        "medicalDetails": "Tablets or injections to grow 1–2 follicles.",
+        "patientInsights": "Similar to IVF stimulation but lighter, may still feel bloated.",
+        "tips": [
+          "Record cycle days",
+          "Stick to clinic instructions",
+          "Monitor for side effects"
+        ]
+      },
+      {
+        "name": "Follicle Tracking Scan",
+        "day": 12,
+        "medicalDetails": "Ultrasound to confirm follicle maturity before insemination.",
+        "patientInsights": "Quick scan, results discussed same day.",
+        "tips": [
+          "Flexible schedule — scans may be at short notice",
+          "Keep phone available for updates",
+          "Plan work schedule around appointments"
+        ]
+      },
+      {
+        "name": "Insemination",
+        "day": 14,
+        "medicalDetails": "Washed sperm placed directly into uterus via catheter.",
+        "patientInsights": "Feels like pap smear, some mild cramps.",
+        "tips": [
+          "Can return to work afterwards",
+          "Light activity recommended",
+          "Stay relaxed during procedure"
+        ]
+      },
+      {
+        "name": "Pregnancy Test",
+        "day": 28,
+        "medicalDetails": "Blood test approximately 14 days after insemination",
+        "patientInsights": "Simple blood test, results same day",
+        "tips": [
+          "Continue any prescribed support medications",
+          "Have emotional support available",
+          "Discuss next steps with clinic"
+        ]
+      }
+    ]
+  },
+  "egg_freezing": {
+    "name": "Egg Freezing",
+    "description": "Fertility preservation through egg freezing",
+    "duration": 28,
+    "milestones": [
+      {
+        "name": "Menstrual Cycle Starts",
+        "day": 1,
+        "medicalDetails": "Day 1 is marked by full period flow before midday. If after midday the following day is considered day 1.",
+        "patientInsights": "Normal menstrual flow",
+        "tips": [
+          "Mark the exact time flow starts",
+          "Call clinic if uncertain about timing",
+          "Prepare for treatment start"
+        ]
+      },
+      {
+        "name": "Stimulation Start",
+        "day": 3,
+        "medicalDetails": "Daily hormone injections (FSH ± antagonist) to stimulate ovaries to grow multiple follicles.",
+        "patientInsights": "Daily needles, sometimes bloating, mood swings, headaches as Estrogen starts to rise.",
+        "tips": [
+          "Rotate injection sites",
+          "Stay hydrated",
+          "Light exercise like walking can help with bloating"
+        ]
+      },
+      {
+        "name": "Monitoring Scan",
+        "day": 7,
+        "medicalDetails": "Ultrasound + blood test to check follicle growth and hormone levels.",
+        "patientInsights": "Transvaginal ultrasound (looking for 17–22mm follicles), Adjust medication dose depending on follicle size & estrogen. may feel bloated. Follicles grow steadily.",
+        "tips": [
+          "Wear comfortable clothes",
+          "Keep a snack for after bloods if you feel faint"
+        ]
+      },
+      {
+        "name": "Trigger Injection",
+        "day": 12,
+        "medicalDetails": "hCG or Lucrin injection to mature eggs for collection. Given at a precise time 34-36 hours exactly before collection.",
+        "patientInsights": "Some abdominal heaviness.",
+        "tips": [
+          "Set multiple reminders",
+          "Have partner/friend help",
+          "Rest afterwards"
+        ]
+      },
+      {
+        "name": "Egg Collection",
+        "day": 14,
+        "medicalDetails": "Eggs aspirated via transvaginal ultrasound under sedation. Eggs will be frozen post collection.",
+        "patientInsights": "Day procedure, mild cramping/bloating, spotting afterwards.",
+        "tips": [
+          "Take the day off",
+          "Have a heat pack ready",
+          "Avoid driving after anaesthetic"
+        ]
+      }
+    ]
+  },
+  "donor_conception": {
+    "name": "Donor Conception",
+    "description": "Conception using donor sperm or eggs",
+    "duration": 60,
+    "milestones": [
+      {
+        "name": "Counselling Session",
+        "day": 1,
+        "medicalDetails": "Mandatory counselling for recipient (and partner if applicable).",
+        "patientInsights": "Explores implications of donor use for child, family, and future.",
+        "tips": [
+          "Write questions in advance",
+          "Be honest about concerns",
+          "Take time to process information"
+        ]
+      },
+      {
+        "name": "Donor Screening & Legal Checks",
+        "day": 14,
+        "medicalDetails": "Donor's infectious disease screening, genetic testing, and legal paperwork.",
+        "patientInsights": "Waiting period until approval complete.",
+        "tips": [
+          "Ask for clinic's donor matching wait times — they vary greatly",
+          "Use waiting time for emotional preparation",
+          "Consider support groups"
+        ]
+      },
+      {
+        "name": "Donor Matching",
+        "day": 30,
+        "medicalDetails": "Review available donors and make selection based on preferences",
+        "patientInsights": "Review donor profiles and make selection",
+        "tips": [
+          "Consider physical characteristics",
+          "Think about personality traits",
+          "Discuss with partner thoroughly"
+        ]
+      },
+      {
+        "name": "Treatment Start",
+        "day": 45,
+        "medicalDetails": "Same steps as whichever treatment is chosen.",
+        "patientInsights": "Depends on pathway selected.",
+        "tips": [
+          "Seek peer support (many find donor conception emotionally complex)",
+          "Continue counselling if helpful",
+          "Stay connected with support network"
+        ]
+      }
+    ]
+  }
+}

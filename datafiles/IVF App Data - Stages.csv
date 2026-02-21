@@ -1,0 +1,47 @@
+stage_id,cycle_template_id,stage_name,start_milestone_id,expected_date,end_milestone_id,expected_date2,ui_priority,details 
+EGG_FREEZ_FOLLICULAR,EGG_FREEZ,Follicular Phase,EGG_FREEZ_DAY1_PERIOD,1,EGG_FREEZ_BASELINE_BLOODS,2,1,"Period starts new cycle
+Hormones drop, lining sheds
+Fatigue, cramps, bloating common"
+EGG_FREEZ_STIMULATION,EGG_FREEZ,Stimulation Phase,EGG_FREEZ_STIMULATION_START,3,EGG_FREEZ_MONITORING_SCAN,5,2,"FSH/LH injections stimulate follicles
+Bloating, tenderness, fatigue possible
+Monitor scans, track symptoms"
+EGG_FREEZ_ANTAGONIST,EGG_FREEZ,Antagonist Phase,EGG_FREEZ_ANTAGONIST_START,6,EGG_FREEZ_TRIGGER,7,3,"Follicles grow, LH suppressed
+Bloating, tenderness, mood swings
+Follow injection schedule"
+EGG_FREEZ_RETRIEVAL,EGG_FREEZ,Retrieval Phase,EGG_FREEZ_RETRIEVAL,8,EGG_FREEZ_EGG_FREEZE,9,4,"Eggs retrieved and progesterone rises
+Groggy, bloating, cramps, nausea
+Rest, hydrate, and avoid heavy lifting"
+FET_FOLLICULAR,FET,Follicular Phase,FET_DAY1_PERIOD,1,FET_MONITORING_SCAN,3,1,"Period starts new cycle
+Hormones drop, lining sheds
+Fatigue, cramps, bloating common"
+FET_OVULATION,FET,Ovulation Phase,FET_LH_OV,4,FET_TRIGGER,5,2,"LH rises and egg release triggered
+Mild twinges, spotting, bloating
+Eat antioxidant-rich foods"
+FET_LUTEAL,FET,Luteal Phase,FET_PROGESTERONE_START,6,FET_TRANSFER,7,3,"Progesterone rises, supports lining
+Fatigue, bloating, breast tenderness
+Gentle exercise, magnesium-rich foods"
+FET_WAIT,FET,Two-Week Wait,FET_TRANSFER,7,FET_PREGNANCY_TEST,8,4,"Bloating, cramps, fatigue common
+Gentle walks, rest, hydrate and avoid heavy lifting"
+IUI_FOLLICULAR,IUI,Follicular Phase,IUI_DAY1_PERIOD,1,IUI_MONITORING_SCAN,4,1,"Period starts new cycle
+Hormones drop, lining sheds
+Fatigue, cramps, bloating common"
+IUI_OVULATION,IUI,Ovulation Phase,IUI_TRIGGER,5,IUI_INSEMINATION,6,2,"LH rises and egg release triggered
+Mild twinges, spotting, bloating
+Eat antioxidant-rich foods"
+IUI_LUTEAL,IUI,Luteal Phase,IUI_PROGESTERONE_START,7,IUI_PREGNANCY_TEST,8,3,"Progesterone rises, supports lining
+Fatigue, bloating, breast tenderness
+Gentle exercise, magnesium-rich foods"
+IUI_WAIT,IUI,Two-Week Wait,IUI_INSEMINATION,6,IUI_PREGNANCY_TEST,8,4,"Bloating, cramps, fatigue common
+Gentle walks, rest, hydrate
+Magnesium-rich foods, avoid heavy lifting"
+IVF_STIMULATION,IVF,Stimulation Phase,IVF_STIMULATION_START,3,IVF_MONITORING_SCAN,5,1,"FSH/LH injections stimulate follicles
+Bloating, tenderness, fatigue possible
+Monitor scans, track symptoms"
+IVF_ANTAGONIST,IVF,Antagonist Phase,IVF_ANTAGONIST_START,6,IVF_TRIGGER,7,2,"Follicles grow, LH suppressed
+Bloating, tenderness, mood swings
+Follow injection schedule"
+IVF_RETRIEVAL,IVF,Retrieval Phase,IVF_EGG_RETRIEVAL,8,IVF_EMBRYO_TRANSFER,9,3,"Eggs retrieved and progesterone rises
+Groggy, bloating, cramps, nausea
+Rest, hydrate, and avoid heavy lifting"
+IVF_TRANSFER,IVF,Transfer Phase,IVF_EMBRYO_TRANSFER,9,IVF_PREGNANCY_TEST,11,4,"Prioritise gentle movement and reduce stress
+Magnesium-rich foods, stay hydrated"

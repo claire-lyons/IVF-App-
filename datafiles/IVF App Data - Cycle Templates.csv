@@ -1,0 +1,6 @@
+cycle_template_id,display_name,default_start_day,default_end_day,description 
+Unique key used everywhere else,display_name,default_start_day,default_end_day,Cycle description details 
+FET,FET,FET_DAY1_PERIOD,FET_PREGNANCY_TEST,"Frozen embryo transfer cycle starting from period day 1. The cycle may be natural or medicated, depending on monitoring, ovulation timing, and medications used."
+IVF,IVF Cycle ,IVF_DAY1_PERIOD,IVF_PREGNANCY_TEST,"In vitro fertilisation cycle involving ovarian stimulation, egg retrieval, fertilisation, and embryo transfer or freezing."
+IUI,IUI Cycle ,IUI_DAY1_PERIOD,IUI_PREGNANCY_TEST,"Intrauterine insemination cycle with natural or mild stimulation, timed insemination, and luteal support if required."
+EGG_FREEZ,Egg Freezing ,EGG_FREEZ_DAY1_PERIOD,EGG_FREEZ_EGG_FREEZE,"Fertility preservation cycle involving ovarian stimulation, egg retrieval, and freezing of unfertilised eggs for future use"

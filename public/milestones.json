@@ -1,0 +1,372 @@
+[
+    {
+        "milestone_id": "Unique identifier",
+        "cycle_template_id": "Links to the cycle",
+        "order": "Position in timeline",
+        "expected_day_offset": "Typical timing",
+        "milestone_name": "User-facing label",
+        "milestone_type": "Category for logic/UI",
+        "milestone_details": "User-facing milestone summary ",
+        "Can add multiple": "visible in 'add milestone' "
+    },
+    {
+        "milestone_id": "IVF_DAY1_PERIOD",
+        "cycle_template_id": "IVF",
+        "order": "1",
+        "expected_day_offset": "1",
+        "milestone_name": "Cycle day 1",
+        "milestone_type": "cycle_start",
+        "milestone_details": "Day 1 period marks the start of a new cycle. ",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "IVF_BASELINE_BLOODS",
+        "cycle_template_id": "IVF",
+        "order": "2",
+        "expected_day_offset": "2",
+        "milestone_name": "Baseline blood test",
+        "milestone_type": "blood_test",
+        "milestone_details": "Blood test to check baseline hormones to prepare for stims. ",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "IVF_STIMULATION_START",
+        "cycle_template_id": "IVF",
+        "order": "3",
+        "expected_day_offset": "3",
+        "milestone_name": "Stimulation injections start",
+        "milestone_type": "medication",
+        "milestone_details": "Start stimulation medication",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "IVF_MONITORING_BLOODS",
+        "cycle_template_id": "IVF",
+        "order": "4",
+        "expected_day_offset": "6",
+        "milestone_name": "Monitoring blood test",
+        "milestone_type": "blood_test",
+        "milestone_details": "Blood test checks hormone levels to track stim medication and rising estradiol and LH. ",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "IVF_MONITORING_SCAN",
+        "cycle_template_id": "IVF",
+        "order": "5",
+        "expected_day_offset": "6",
+        "milestone_name": "Monitoring ultrasound",
+        "milestone_type": "ultrasound",
+        "milestone_details": "A transvaginal probe is used to measure follicle sizes, count developing eggs, and check endometrial thickness for optimal timing.\n​",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "IVF_ANTAGONIST_START",
+        "cycle_template_id": "IVF",
+        "order": "6",
+        "expected_day_offset": "7",
+        "milestone_name": "Antagonist injections start",
+        "milestone_type": "medication",
+        "milestone_details": "Antagonist injections are introduced to block premature LH surges, preventing early ovulation while follicles continue maturing. \n",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "IVF_TRIGGER",
+        "cycle_template_id": "IVF",
+        "order": "7",
+        "expected_day_offset": "11",
+        "milestone_name": "Trigger injection",
+        "milestone_type": "medication",
+        "milestone_details": "Trigger injection ensures ovulation occurs at the right time.",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "IVF_EGG_RETRIEVAL",
+        "cycle_template_id": "IVF",
+        "order": "8",
+        "expected_day_offset": "13",
+        "milestone_name": "Egg retrieval",
+        "milestone_type": "procedure",
+        "milestone_details": "Egg retrieval uses a needle guided by ultrasound to aspirate mature eggs from ovarian follicles under light sedation. ",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "IVF_EMBRYO_TRANSFER",
+        "cycle_template_id": "IVF",
+        "order": "9",
+        "expected_day_offset": "19",
+        "milestone_name": "Embryo transfer",
+        "milestone_type": "procedure",
+        "milestone_details": "Embryo is placed into your uterus.",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "IVF_EMBRYO_FREEZE",
+        "cycle_template_id": "IVF",
+        "order": "10",
+        "expected_day_offset": "20",
+        "milestone_name": "Embryos frozen",
+        "milestone_type": "lab_update",
+        "milestone_details": "Embryos are frozen using vitrification (flash-freezing with cryoprotectants) preserving them for future transfer.\n",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "IVF_PREGNANCY_TEST",
+        "cycle_template_id": "IVF",
+        "order": "11",
+        "expected_day_offset": "28",
+        "milestone_name": "Pregnancy blood test",
+        "milestone_type": "blood_test",
+        "milestone_details": "Checks hCG levels to see if the embryo implanted successfully.",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "IUI_DAY1_PERIOD",
+        "cycle_template_id": "IUI",
+        "order": "1",
+        "expected_day_offset": "1",
+        "milestone_name": "Cycle day 1",
+        "milestone_type": "cycle_start",
+        "milestone_details": "Day 1 period marks the start of a new cycle. ",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "IUI_BASELINE_BLOODS",
+        "cycle_template_id": "IUI",
+        "order": "2",
+        "expected_day_offset": "2",
+        "milestone_name": "Baseline blood test",
+        "milestone_type": "blood_test",
+        "milestone_details": "Blood checks hormone levels for timed insemination.",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "IUI_MONITORING_BLOODS",
+        "cycle_template_id": "IUI",
+        "order": "3",
+        "expected_day_offset": "7",
+        "milestone_name": "Monitoring blood test",
+        "milestone_type": "blood_test",
+        "milestone_details": "Blood test checks hormone levels. ",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "IUI_MONITORING_SCAN",
+        "cycle_template_id": "IUI",
+        "order": "4",
+        "expected_day_offset": "7",
+        "milestone_name": "Monitoring ultrasound",
+        "milestone_type": "ultrasound",
+        "milestone_details": "Ultrasound checks lining and follicle growth.",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "IUI_TRIGGER",
+        "cycle_template_id": "IUI",
+        "order": "5",
+        "expected_day_offset": "11",
+        "milestone_name": "Trigger injection",
+        "milestone_type": "medication",
+        "milestone_details": "Trigger injection ensures ovulation occurs at the right time.",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "IUI_INSEMINATION",
+        "cycle_template_id": "IUI",
+        "order": "6",
+        "expected_day_offset": "13",
+        "milestone_name": "Insemination (IUI)",
+        "milestone_type": "procedure",
+        "milestone_details": "Prepared sperm is placed into uterus to meet egg.",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "IUI_PROGESTERONE_START",
+        "cycle_template_id": "IUI",
+        "order": "7",
+        "expected_day_offset": "14",
+        "milestone_name": "Medication starts",
+        "milestone_type": "medication",
+        "milestone_details": "Progesterone supports the uterine lining.",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "IUI_PREGNANCY_TEST",
+        "cycle_template_id": "IUI",
+        "order": "8",
+        "expected_day_offset": "27",
+        "milestone_name": "Pregnancy blood test",
+        "milestone_type": "blood_test",
+        "milestone_details": "Checks hCG levels to see if the embryo implanted successfully.",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "FET_DAY1_PERIOD",
+        "cycle_template_id": "FET",
+        "order": "1",
+        "expected_day_offset": "1",
+        "milestone_name": "Cycle day 1",
+        "milestone_type": "cycle_start",
+        "milestone_details": "Day 1 period marks the start of a new cycle. ",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "FET_MONITORING_BLOODS",
+        "cycle_template_id": "FET",
+        "order": "2",
+        "expected_day_offset": "8",
+        "milestone_name": "Monitoring blood test",
+        "milestone_type": "blood_test",
+        "milestone_details": "Blood test checks hormone levels. ",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "FET_MONITORING_SCAN",
+        "cycle_template_id": "FET",
+        "order": "3",
+        "expected_day_offset": "10",
+        "milestone_name": "Monitoring ultrasound",
+        "milestone_type": "ultrasound",
+        "milestone_details": "Ultrasound checks lining and follicle growth.",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "FET_LH_OV",
+        "cycle_template_id": "FET",
+        "order": "4",
+        "expected_day_offset": "14",
+        "milestone_name": "Ovulation detected",
+        "milestone_type": "ovulation",
+        "milestone_details": "Ovulation is detected and egg is released or triggered.",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "FET_TRIGGER",
+        "cycle_template_id": "FET",
+        "order": "5",
+        "expected_day_offset": "14",
+        "milestone_name": "Medication starts",
+        "milestone_type": "medication",
+        "milestone_details": "Trigger injection ensures ovulation occurs at the right time.",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "FET_PROGESTERONE_START",
+        "cycle_template_id": "FET",
+        "order": "6",
+        "expected_day_offset": "15",
+        "milestone_name": "Trigger injection",
+        "milestone_type": "medication",
+        "milestone_details": "Progesterone supports the uterine lining.",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "FET_TRANSFER",
+        "cycle_template_id": "FET",
+        "order": "7",
+        "expected_day_offset": "19",
+        "milestone_name": "Embryo transfer",
+        "milestone_type": "procedure",
+        "milestone_details": "Thawed embryo is placed into your uterus.",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "FET_PREGNANCY_TEST",
+        "cycle_template_id": "FET",
+        "order": "8",
+        "expected_day_offset": "29",
+        "milestone_name": "Pregnancy blood test",
+        "milestone_type": "blood_test",
+        "milestone_details": "Checks hCG levels to see if the embryo implanted successfully.",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_DAY1_PERIOD",
+        "cycle_template_id": "EGG_FREEZ",
+        "order": "1",
+        "expected_day_offset": "1",
+        "milestone_name": "Cycle day 1",
+        "milestone_type": "cycle_start",
+        "milestone_details": "Day 1 period marks the start of a new cycle. ",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_BASELINE_BLOODS",
+        "cycle_template_id": "EGG_FREEZ",
+        "order": "2",
+        "expected_day_offset": "2",
+        "milestone_name": "Baseline blood test",
+        "milestone_type": "blood_test",
+        "milestone_details": "Blood test to check baseline hormones to prepare for stims. ",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_STIMULATION_START",
+        "cycle_template_id": "EGG_FREEZ",
+        "order": "3",
+        "expected_day_offset": "2",
+        "milestone_name": "Stimulation injections start",
+        "milestone_type": "medication",
+        "milestone_details": "Start stimulation medication",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_MONITORING_BLOODS",
+        "cycle_template_id": "EGG_FREEZ",
+        "order": "4",
+        "expected_day_offset": "6",
+        "milestone_name": "Monitoring blood test",
+        "milestone_type": "blood_test",
+        "milestone_details": "Blood test checks hormone levels. ",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_MONITORING_SCAN",
+        "cycle_template_id": "EGG_FREEZ",
+        "order": "5",
+        "expected_day_offset": "6",
+        "milestone_name": "Monitoring ultrasound",
+        "milestone_type": "ultrasound",
+        "milestone_details": "A transvaginal probe is used to measure follicle sizes, count developing eggs, and check endometrial thickness for optimal timing.\n​",
+        "Can add multiple": "TRUE"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_ANTAGONIST_START",
+        "cycle_template_id": "EGG_FREEZ",
+        "order": "6",
+        "expected_day_offset": "7",
+        "milestone_name": "Antagonist injections start",
+        "milestone_type": "medication",
+        "milestone_details": "Antagonist injections are introduced to block premature LH surges, preventing early ovulation while follicles continue maturing. \n",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_TRIGGER",
+        "cycle_template_id": "EGG_FREEZ",
+        "order": "7",
+        "expected_day_offset": "11",
+        "milestone_name": "Trigger injection",
+        "milestone_type": "medication",
+        "milestone_details": "Trigger injection ensures ovulation occurs at the right time.",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_RETRIEVAL",
+        "cycle_template_id": "EGG_FREEZ",
+        "order": "8",
+        "expected_day_offset": "13",
+        "milestone_name": "Egg retrieval",
+        "milestone_type": "procedure",
+        "milestone_details": "Egg retrieval uses a needle guided by ultrasound to aspirate mature eggs from ovarian follicles under light sedation. ",
+        "Can add multiple": "FALSE"
+    },
+    {
+        "milestone_id": "EGG_FREEZ_EGG_FREEZE",
+        "cycle_template_id": "EGG_FREEZ",
+        "order": "9",
+        "expected_day_offset": "13",
+        "milestone_name": "Eggs frozen",
+        "milestone_type": "lab_update",
+        "milestone_details": "Eggs are safely frozen using vitrification (flash-freezing with cryoprotectants) preserving them for future use. ",
+        "Can add multiple": "TRUE"
+    }
+]

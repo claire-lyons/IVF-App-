@@ -1,0 +1,43 @@
+milestone_id,cycle_template_id,order,expected_day_offset,milestone_name,milestone_type,milestone_details,Can add multiple 
+Unique identifier,Links to the cycle,Position in timeline,Typical timing,User-facing label,Category for logic/UI,User-facing milestone summary ,visible in 'add milestone' 
+IVF_DAY1_PERIOD,IVF,1,1,Cycle day 1,cycle_start,Day 1 period marks the start of a new cycle. ,FALSE
+IVF_BASELINE_BLOODS,IVF,2,2,Baseline blood test,blood_test,Blood test to check baseline hormones to prepare for stims. ,FALSE
+IVF_STIMULATION_START,IVF,3,3,Stimulation injections start,medication,Start stimulation medication,FALSE
+IVF_MONITORING_BLOODS,IVF,4,6,Monitoring blood test,blood_test,Blood test checks hormone levels to track stim medication and rising estradiol and LH. ,TRUE
+IVF_MONITORING_SCAN,IVF,5,6,Monitoring ultrasound,ultrasound,"A transvaginal probe is used to measure follicle sizes, count developing eggs, and check endometrial thickness for optimal timing.
+​",TRUE
+IVF_ANTAGONIST_START,IVF,6,7,Antagonist injections start,medication,"Antagonist injections are introduced to block premature LH surges, preventing early ovulation while follicles continue maturing. 
+",FALSE
+IVF_TRIGGER,IVF,7,11,Trigger injection,medication,Trigger injection ensures ovulation occurs at the right time.,FALSE
+IVF_EGG_RETRIEVAL,IVF,8,13,Egg retrieval,procedure,Egg retrieval uses a needle guided by ultrasound to aspirate mature eggs from ovarian follicles under light sedation. ,FALSE
+IVF_EMBRYO_TRANSFER,IVF,9,19,Embryo transfer,procedure,Embryo is placed into your uterus.,TRUE
+IVF_EMBRYO_FREEZE,IVF,10,20,Embryos frozen,lab_update,"Embryos are frozen using vitrification (flash-freezing with cryoprotectants) preserving them for future transfer.
+",TRUE
+IVF_PREGNANCY_TEST,IVF,11,28,Pregnancy blood test,blood_test,Checks hCG levels to see if the embryo implanted successfully.,TRUE
+IUI_DAY1_PERIOD,IUI,1,1,Cycle day 1,cycle_start,Day 1 period marks the start of a new cycle. ,FALSE
+IUI_BASELINE_BLOODS,IUI,2,2,Baseline blood test,blood_test,Blood checks hormone levels for timed insemination.,FALSE
+IUI_MONITORING_BLOODS,IUI,3,7,Monitoring blood test,blood_test,Blood test checks hormone levels. ,TRUE
+IUI_MONITORING_SCAN,IUI,4,7,Monitoring ultrasound,ultrasound,Ultrasound checks lining and follicle growth.,TRUE
+IUI_TRIGGER,IUI,5,11,Trigger injection,medication,Trigger injection ensures ovulation occurs at the right time.,FALSE
+IUI_INSEMINATION,IUI,6,13,Insemination (IUI),procedure,Prepared sperm is placed into uterus to meet egg.,TRUE
+IUI_PROGESTERONE_START,IUI,7,14,Medication starts,medication,Progesterone supports the uterine lining.,FALSE
+IUI_PREGNANCY_TEST,IUI,8,27,Pregnancy blood test,blood_test,Checks hCG levels to see if the embryo implanted successfully.,TRUE
+FET_DAY1_PERIOD,FET,1,1,Cycle day 1,cycle_start,Day 1 period marks the start of a new cycle. ,FALSE
+FET_MONITORING_BLOODS,FET,2,8,Monitoring blood test,blood_test,Blood test checks hormone levels. ,TRUE
+FET_MONITORING_SCAN,FET,3,10,Monitoring ultrasound,ultrasound,Ultrasound checks lining and follicle growth.,TRUE
+FET_LH_OV,FET,4,14,Ovulation detected,ovulation,Ovulation is detected and egg is released or triggered.,FALSE
+FET_TRIGGER,FET,5,14,Medication starts,medication,Trigger injection ensures ovulation occurs at the right time.,FALSE
+FET_PROGESTERONE_START,FET,6,15,Trigger injection,medication,Progesterone supports the uterine lining.,FALSE
+FET_TRANSFER,FET,7,19,Embryo transfer,procedure,Thawed embryo is placed into your uterus.,TRUE
+FET_PREGNANCY_TEST,FET,8,29,Pregnancy blood test,blood_test,Checks hCG levels to see if the embryo implanted successfully.,TRUE
+EGG_FREEZ_DAY1_PERIOD,EGG_FREEZ,1,1,Cycle day 1,cycle_start,Day 1 period marks the start of a new cycle. ,FALSE
+EGG_FREEZ_BASELINE_BLOODS,EGG_FREEZ,2,2,Baseline blood test,blood_test,Blood test to check baseline hormones to prepare for stims. ,FALSE
+EGG_FREEZ_STIMULATION_START,EGG_FREEZ,3,2,Stimulation injections start,medication,Start stimulation medication,FALSE
+EGG_FREEZ_MONITORING_BLOODS,EGG_FREEZ,4,6,Monitoring blood test,blood_test,Blood test checks hormone levels. ,TRUE
+EGG_FREEZ_MONITORING_SCAN,EGG_FREEZ,5,6,Monitoring ultrasound,ultrasound,"A transvaginal probe is used to measure follicle sizes, count developing eggs, and check endometrial thickness for optimal timing.
+​",TRUE
+EGG_FREEZ_ANTAGONIST_START,EGG_FREEZ,6,7,Antagonist injections start,medication,"Antagonist injections are introduced to block premature LH surges, preventing early ovulation while follicles continue maturing. 
+",FALSE
+EGG_FREEZ_TRIGGER,EGG_FREEZ,7,11,Trigger injection,medication,Trigger injection ensures ovulation occurs at the right time.,FALSE
+EGG_FREEZ_RETRIEVAL,EGG_FREEZ,8,13,Egg retrieval,procedure,Egg retrieval uses a needle guided by ultrasound to aspirate mature eggs from ovarian follicles under light sedation. ,FALSE
+EGG_FREEZ_EGG_FREEZE,EGG_FREEZ,9,13,Eggs frozen,lab_update,Eggs are safely frozen using vitrification (flash-freezing with cryoprotectants) preserving them for future use. ,TRUE
