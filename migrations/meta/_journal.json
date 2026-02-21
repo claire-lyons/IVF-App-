@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1765191866949,
+      "tag": "0000_add_forum_post_reactions",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1767937718586,
+      "tag": "0001_loving_sasquatch",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1769249999999,
+      "tag": "0002_add_content_blocks",
+      "breakpoints": true
+    }
+  ]
+}

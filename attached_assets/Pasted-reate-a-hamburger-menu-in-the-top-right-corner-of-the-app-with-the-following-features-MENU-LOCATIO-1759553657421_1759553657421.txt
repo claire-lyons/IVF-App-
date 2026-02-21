@@ -1,0 +1,71 @@
+reate a hamburger menu in the top-right corner of the app with the following features:
+
+MENU LOCATION & DESIGN:
+- Position: Top-right corner of the navigation bar
+- Icon: Three horizontal lines (hamburger icon)
+- Opens: Dropdown/slide-out menu when clicked
+- Closes: When clicking outside menu or clicking X button
+- Style: Match the existing app design (clean, modern)
+
+MENU ITEMS (in order):
+
+1. USER PROFILE SECTION (at top of menu):
+   - Display user's name/email
+   - Small profile icon or avatar
+   - "View Profile" link
+
+2. MY CYCLES:
+   - Link to view all user's cycles (active & past)
+   - Show active cycle count badge if applicable
+
+3. START NEW CYCLE:
+   - Button to start a new treatment cycle
+   - Opens the cycle creation form
+
+4. SETTINGS / MANAGE ACCOUNT:
+   - Update profile information (name, email, phone)
+   - Change password
+   - Notification preferences
+   - Timezone settings
+
+5. SUPPORT & HELP:
+   - Link to help documentation
+   - Contact support option
+   - FAQs link
+
+6. ABOUT:
+   - App version info
+   - Privacy policy link
+   - Terms of service link
+
+7. LOG OUT (at bottom):
+   - Red/prominent "Log Out" button
+   - Confirms before logging out
+   - Clears session and redirects to login page
+
+FUNCTIONALITY REQUIREMENTS:
+- Only show menu when user is logged in
+- Menu should be responsive (works on mobile & desktop)
+- Smooth animation when opening/closing
+- Current page should be highlighted in menu
+- Include icons next to each menu item for better UX
+
+AUTHENTICATION:
+- Log out should call Supabase signOut()
+- Clear any cached user data
+- Redirect to login page after logout
+- Show confirmation: "Are you sure you want to log out?"
+
+MOBILE CONSIDERATIONS:
+- Full-screen overlay on mobile devices
+- Easy to close with X button or back gesture
+- Touch-friendly button sizes
+
+Please implement this hamburger menu and ensure:
+1. It appears on all logged-in pages
+2. The menu items are clickable and functional
+3. Log out works correctly with Supabase auth
+4. Menu styling matches the current app theme
+5. Test on both desktop and mobile views
+
+Show me the implementation and let me know if any routes/pages need to be created for the menu items.

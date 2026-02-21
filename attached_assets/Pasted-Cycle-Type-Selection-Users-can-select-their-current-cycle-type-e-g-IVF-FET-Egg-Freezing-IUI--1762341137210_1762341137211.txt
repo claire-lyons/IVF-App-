@@ -1,0 +1,51 @@
+Cycle Type Selection: Users can select their current cycle type (e.g., IVF, FET, Egg Freezing, IUI). Based on the cycle chosen a predetermined milestone list will appear. 
+
+Start Date: Users must enter the start date of their cycle.  
+
+Cycle Milestones: Cycle milestones should appear based on the cycle selected.  Each will have a status (Pending (default value), In progress, Complete, Cancelled). When moving status from Pending to anything else a start date must be selected. The complete or cancel the cycle and end date must be selected. Dates and status can be editable throughout the active cycle.   
+
+Medication Logging: 
+
+Users can add medications they are taking, specifying units and timings. 
+
+Upon selecting a medication, the app will provide a brief explanation of what it is and its possible side effects with a video link to instructions to take. 
+
+Symptom Logging: Users can log both physical and mental symptoms for their records with dates and comments. 
+
+Test Results Logging: The app will allow users to input various test results, including: 
+
+Blood work (e.g., hormone levels) 
+
+Pregnancy test results 
+
+Basal Body Temperature (BBT) 
+
+LH results 
+
+Follicle count 
+
+Embryo grading  
+
+Event Logging: 
+
+Users can add important dates like trigger shots and upcoming appointments not already included in the Cycle milestones. 
+
+A dedicated notes section will allow users to record questions to ask their doctor should the event be a Drs appointment or ultrasound.  
+
+Cycle End: Users can log the outcome of their cycle, including positive pregnancy, HCG count, or miscarriage or cycle cancel midday way through. This will stop the cycle and record the data when a user clicks either Cancel Cycle or Complete Cycle.  
+
+Reminders: The app will have an optional reminder system with alarms for medications and appointments. 
+
+Data Analysis: All logged data will be used to create a concise, end-of-cycle summary for the user's personal records. This summary is a key feature, empowering users to have a complete history for their records and doctor appointments. 
+
+ 
+
+ 
+
+Automatic Phase Detection: The system calculates what phase of treatment the user is in (stimulation, pre-collection, two-week wait, etc.) based on logged milestones and cycle day count. 
+
+Flexible Milestone System: Unlike rigid day counts, the system adapts to real-world IVF variations - some people trigger on day 10, others on day 14, and the app handles both scenarios. 
+
+Smart Educational Content: The dashboard automatically shows relevant information based on the user's current phase and cycle day. 
+
+Calendar Integration: Shows visual markers for cycle days, milestones, and logged data - similar to how period apps show flow days and symptoms. 

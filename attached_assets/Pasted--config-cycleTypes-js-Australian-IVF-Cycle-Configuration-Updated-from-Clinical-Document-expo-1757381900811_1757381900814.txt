@@ -1,0 +1,686 @@
+// config/cycleTypes.js
+// Australian IVF Cycle Configuration - Updated from Clinical Document
+
+export const CYCLE_TYPES = {
+  IVF_FRESH: {
+    id: 'ivf_fresh',
+    name: 'IVF Fresh Cycle',
+    description: 'Complete IVF cycle with fresh embryo transfer',
+    duration: 35, // Updated based on clinical timeline
+    phases: ['menstrual', 'stimulation', 'monitoring', 'retrieval', 'transfer', 'tww'],
+    milestones: [
+      {
+        id: 1,
+        name: 'Menstrual Cycle Starts',
+        description: 'Day 1 marked by full period flow before midday',
+        day: 1,
+        phase: 'menstrual',
+        icon: 'calendar',
+        color: '#3B82F6',
+        isRequired: true,
+        medicalDetails: 'Day 1 is marked by full period flow before midday. If after midday the following day is considered day 1.',
+        whatToExpect: 'Normal menstrual flow',
+        tips: [
+          'Mark the exact time flow starts',
+          'Call clinic if uncertain about timing',
+          'Prepare for treatment start'
+        ]
+      },
+      {
+        id: 2,
+        name: 'Stimulation Start',
+        description: 'Begin daily hormone injections to stimulate ovaries',
+        day: 3,
+        phase: 'stimulation',
+        icon: 'syringe',
+        color: '#10B981',
+        isRequired: true,
+        medicalDetails: 'Daily hormone injections (FSH ± antagonist) to stimulate ovaries to grow multiple follicles.',
+        whatToExpect: 'Daily needles, sometimes bloating, mood swings, headaches as Estrogen starts to rise.',
+        tips: [
+          'Rotate injection sites',
+          'Stay hydrated',
+          'Light exercise like walking can help with bloating'
+        ]
+      },
+      {
+        id: 3,
+        name: 'Monitoring Scan',
+        description: 'First ultrasound and blood test to check progress',
+        day: 7,
+        phase: 'monitoring',
+        icon: 'monitor',
+        color: '#8B5CF6',
+        isRequired: true,
+        medicalDetails: 'Ultrasound + blood test to check follicle growth and hormone levels.',
+        whatToExpected: 'Transvaginal ultrasound (looking for 17–22mm follicles), Adjust medication dose depending on follicle size & estrogen. may feel bloated. Follicles grow steadily.',
+        tips: [
+          'Wear comfortable clothes',
+          'Keep a snack for after bloods if you feel faint'
+        ]
+      },
+      {
+        id: 4,
+        name: 'Trigger Injection',
+        description: 'Injection to mature eggs for collection',
+        day: 12,
+        phase: 'retrieval',
+        icon: 'target',
+        color: '#EF4444',
+        isRequired: true,
+        medicalDetails: 'hCG or Lucrin injection to mature eggs for collection. Given at a precise time 34-36 hours exactly before collection.',
+        whatToExpect: 'Some abdominal heaviness.',
+        tips: [
+          'Set multiple reminders',
+          'Have partner/friend help',
+          'Rest afterwards'
+        ]
+      },
+      {
+        id: 5,
+        name: 'Egg Collection',
+        description: 'Surgical procedure to collect mature eggs',
+        day: 14,
+        phase: 'retrieval',
+        icon: 'egg',
+        color: '#F97316',
+        isRequired: true,
+        medicalDetails: 'Eggs aspirated via transvaginal ultrasound under sedation.',
+        whatToExpect: 'Day procedure, mild cramping/bloating, spotting afterwards.',
+        tips: [
+          'Take the day off',
+          'Have a heat pack ready',
+          'Avoid driving after anaesthetic'
+        ]
+      },
+      {
+        id: 6,
+        name: 'Fertilisation Update',
+        description: 'Lab report on egg maturation and fertilisation',
+        day: 15,
+        phase: 'retrieval',
+        icon: 'phone',
+        color: '#06B6D4',
+        isRequired: false,
+        medicalDetails: 'Eggs inseminated (IVF) or ICSI performed. Embryo growth monitored daily.',
+        whatToExpect: 'Phone call update, text message for lab updates on matured and fertilised number.',
+        tips: [
+          'On average, about 70-80% of collected eggs mature',
+          'About 80% of mature eggs will fertilize',
+          'Keep phone nearby for updates'
+        ]
+      },
+      {
+        id: 7,
+        name: 'Fresh Embryo Transfer',
+        description: 'Transfer best quality embryo into uterus',
+        day: 20,
+        phase: 'transfer',
+        icon: 'heart',
+        color: '#EC4899',
+        isRequired: true,
+        medicalDetails: 'One embryo placed into uterus via a thin catheter.',
+        whatToExpect: 'Feels like a pap smear, mild cramping possible.',
+        tips: [
+          'Normal activity afterwards is safe',
+          'Mindfulness helps with "two-week wait"',
+          'Stay relaxed during procedure'
+        ]
+      },
+      {
+        id: 8,
+        name: 'Pregnancy Blood Test (BETA)',
+        description: 'Blood test to confirm pregnancy',
+        day: 32,
+        phase: 'tww',
+        icon: 'test-tube',
+        color: '#8B5CF6',
+        isRequired: true,
+        medicalDetails: 'hCG blood test ~10–12 days after transfer.',
+        whatToExpect: 'Simple blood test, results usually same day',
+        tips: [
+          'Morning test preferred',
+          'Continue medications until results',
+          'Have support person available'
+        ]
+      }
+    ],
+    medications: [
+      {
+        name: 'FSH Injections',
+        type: 'Ovarian Stimulation',
+        phase: 'stimulation',
+        dailyDose: 'As prescribed',
+        duration: '8-12 days',
+        instructions: 'Daily subcutaneous injection, rotate sites',
+        sideEffects: 'Bloating, mood swings, headaches'
+      },
+      {
+        name: 'GnRH Antagonist',
+        type: 'Ovulation Prevention',
+        phase: 'stimulation',
+        dailyDose: 'As prescribed',
+        duration: '4-6 days',
+        instructions: 'Added mid-cycle to prevent early ovulation',
+        sideEffects: 'Minimal'
+      },
+      {
+        name: 'hCG Trigger Shot',
+        type: 'Final Maturation',
+        phase: 'retrieval',
+        dailyDose: 'Single injection',
+        duration: 'One time',
+        instructions: 'Exact timing 34-36 hours before collection',
+        sideEffects: 'Abdominal heaviness'
+      }
+    ],
+    tracking: [
+      'daily_injections',
+      'injection_sites',
+      'side_effects',
+      'bloating_levels',
+      'mood_changes',
+      'appointment_attendance'
+    ],
+    expectedOutcomes: {
+      eggMaturationRate: '70-80%',
+      fertilizationRate: '80% of mature eggs',
+      transferSuccess: 'Variable by age',
+      timeToResults: '10-12 days post transfer'
+    }
+  },
+
+  FET: {
+    id: 'fet',
+    name: 'Frozen Embryo Transfer (FET)',
+    description: 'Transfer of previously frozen embryo',
+    duration: 25,
+    phases: ['preparation', 'monitoring', 'transfer', 'tww'],
+    milestones: [
+      {
+        id: 1,
+        name: 'Cycle Preparation',
+        description: 'Prepare uterine lining with hormones or natural cycle',
+        day: 1,
+        phase: 'preparation',
+        icon: 'calendar',
+        color: '#3B82F6',
+        isRequired: true,
+        medicalDetails: 'Hormone tablets/patches or natural cycle tracking to prepare uterine lining.',
+        whatToExpect: 'Extra monitoring appointments, possible mild side effects (nausea, breast tenderness).',
+        tips: [
+          'Keep a diary of meds',
+          'Set reminders for medications',
+          'Track any side effects'
+        ]
+      },
+      {
+        id: 2,
+        name: 'Lining Scan',
+        description: 'Check endometrial thickness is adequate',
+        day: 10,
+        phase: 'monitoring',
+        icon: 'ruler',
+        color: '#10B981',
+        isRequired: true,
+        medicalDetails: 'Ultrasound to check endometrium thickness (≥7mm ideal).',
+        whatToExpect: 'Transvaginal scan, can be quick and painless.',
+        tips: [
+          'Drink water beforehand if full bladder requested',
+          'Wear comfortable clothing',
+          'Ask about lining quality'
+        ]
+      },
+      {
+        id: 3,
+        name: 'Frozen Embryo Transfer',
+        description: 'Transfer thawed embryo into uterus',
+        day: 15,
+        phase: 'transfer',
+        icon: 'heart',
+        color: '#EC4899',
+        isRequired: true,
+        medicalDetails: 'Thawed embryo placed into uterus.',
+        whatToExpect: 'Same as fresh transfer, very quick.',
+        tips: [
+          'Normal activity is fine',
+          'Relaxation strategies help during the wait',
+          'Stay calm during procedure'
+        ]
+      },
+      {
+        id: 4,
+        name: 'Pregnancy Blood Test (BETA)',
+        description: 'Blood test to confirm pregnancy',
+        day: 27,
+        phase: 'tww',
+        icon: 'test-tube',
+        color: '#8B5CF6',
+        isRequired: true,
+        medicalDetails: 'hCG blood test ~10–12 days after transfer.',
+        whatToExpect: 'Simple blood test, results usually same day',
+        tips: [
+          'Continue medications until results',
+          'Have support available',
+          'Morning test preferred'
+        ]
+      }
+    ],
+    medications: [
+      {
+        name: 'Estrogen',
+        type: 'Lining Preparation',
+        phase: 'preparation',
+        dailyDose: 'As prescribed',
+        duration: '2-3 weeks',
+        instructions: 'Tablets or patches, consistent timing',
+        sideEffects: 'Nausea, breast tenderness'
+      },
+      {
+        name: 'Progesterone',
+        type: 'Luteal Support',
+        phase: 'transfer',
+        dailyDose: 'As prescribed',
+        duration: '12 weeks if pregnant',
+        instructions: 'Pessaries or injections',
+        sideEffects: 'Bloating, mood changes'
+      }
+    ],
+    tracking: [
+      'medication_timing',
+      'side_effects',
+      'lining_thickness',
+      'appointment_compliance'
+    ],
+    expectedOutcomes: {
+      embryoSurvivalRate: '95%+',
+      implantationRate: 'Age dependent',
+      advantages: 'Less medication, more convenient timing'
+    }
+  },
+
+  IUI: {
+    id: 'iui',
+    name: 'Intrauterine Insemination (IUI)',
+    description: 'Artificial insemination procedure',
+    duration: 20,
+    phases: ['ovulation_induction', 'monitoring', 'insemination', 'tww'],
+    milestones: [
+      {
+        id: 1,
+        name: 'Ovulation Induction',
+        description: 'Medications to grow 1-2 follicles',
+        day: 3,
+        phase: 'ovulation_induction',
+        icon: 'pill',
+        color: '#3B82F6',
+        isRequired: true,
+        medicalDetails: 'Tablets or injections to grow 1–2 follicles.',
+        whatToExpect: 'Similar to IVF stimulation but lighter, may still feel bloated.',
+        tips: [
+          'Record cycle days',
+          'Stick to clinic instructions',
+          'Monitor for side effects'
+        ]
+      },
+      {
+        id: 2,
+        name: 'Follicle Tracking Scan',
+        description: 'Confirm follicle maturity before insemination',
+        day: 12,
+        phase: 'monitoring',
+        icon: 'search',
+        color: '#10B981',
+        isRequired: true,
+        medicalDetails: 'Ultrasound to confirm follicle maturity before insemination.',
+        whatToExpect: 'Quick scan, results discussed same day.',
+        tips: [
+          'Flexible schedule — scans may be at short notice',
+          'Keep phone available for updates',
+          'Plan work schedule around appointments'
+        ]
+      },
+      {
+        id: 3,
+        name: 'Insemination',
+        description: 'Sperm placement directly into uterus',
+        day: 14,
+        phase: 'insemination',
+        icon: 'target',
+        color: '#EC4899',
+        isRequired: true,
+        medicalDetails: 'Washed sperm placed directly into uterus via catheter.',
+        whatToExpect: 'Feels like pap smear, some mild cramps.',
+        tips: [
+          'Can return to work afterwards',
+          'Light activity recommended',
+          'Stay relaxed during procedure'
+        ]
+      },
+      {
+        id: 4,
+        name: 'Pregnancy Test',
+        description: 'Blood test to confirm pregnancy',
+        day: 28,
+        phase: 'tww',
+        icon: 'test-tube',
+        color: '#8B5CF6',
+        isRequired: true,
+        medicalDetails: 'Blood test approximately 14 days after insemination',
+        whatToExpect: 'Simple blood test, results same day',
+        tips: [
+          'Continue any prescribed support medications',
+          'Have emotional support available',
+          'Discuss next steps with clinic'
+        ]
+      }
+    ],
+    medications: [
+      {
+        name: 'Ovulation Induction',
+        type: 'Stimulation',
+        phase: 'ovulation_induction',
+        dailyDose: 'As prescribed',
+        duration: '5-10 days',
+        instructions: 'Tablets or light injections',
+        sideEffects: 'Mild bloating, mood changes'
+      }
+    ],
+    tracking: [
+      'cycle_days',
+      'medication_response',
+      'follicle_development',
+      'ovulation_timing'
+    ],
+    expectedOutcomes: {
+      ovulationRate: 'High with medication',
+      pregnancyRate: '12-18% per cycle',
+      advantages: 'Less invasive, lower cost'
+    }
+  },
+
+  EGG_FREEZING: {
+    id: 'egg_freezing',
+    name: 'Egg Freezing',
+    description: 'Fertility preservation through egg freezing',
+    duration: 28,
+    phases: ['menstrual', 'stimulation', 'monitoring', 'retrieval', 'freezing'],
+    milestones: [
+      {
+        id: 1,
+        name: 'Menstrual Cycle Starts',
+        description: 'Day 1 marked by full period flow before midday',
+        day: 1,
+        phase: 'menstrual',
+        icon: 'calendar',
+        color: '#3B82F6',
+        isRequired: true,
+        medicalDetails: 'Day 1 is marked by full period flow before midday. If after midday the following day is considered day 1.',
+        whatToExpect: 'Normal menstrual flow',
+        tips: [
+          'Mark the exact time flow starts',
+          'Call clinic if uncertain about timing',
+          'Prepare for treatment start'
+        ]
+      },
+      {
+        id: 2,
+        name: 'Stimulation Start',
+        description: 'Begin daily hormone injections',
+        day: 3,
+        phase: 'stimulation',
+        icon: 'syringe',
+        color: '#10B981',
+        isRequired: true,
+        medicalDetails: 'Daily hormone injections (FSH ± antagonist) to stimulate ovaries to grow multiple follicles.',
+        whatToExpect: 'Daily needles, sometimes bloating, mood swings, headaches as Estrogen starts to rise.',
+        tips: [
+          'Rotate injection sites',
+          'Stay hydrated',
+          'Light exercise like walking can help with bloating'
+        ]
+      },
+      {
+        id: 3,
+        name: 'Monitoring Scan',
+        description: 'Check follicle growth and hormone levels',
+        day: 7,
+        phase: 'monitoring',
+        icon: 'monitor',
+        color: '#8B5CF6',
+        isRequired: true,
+        medicalDetails: 'Ultrasound + blood test to check follicle growth and hormone levels.',
+        whatToExpect: 'Transvaginal ultrasound (looking for 17–22mm follicles), Adjust medication dose depending on follicle size & estrogen. may feel bloated. Follicles grow steadily.',
+        tips: [
+          'Wear comfortable clothes',
+          'Keep a snack for after bloods if you feel faint'
+        ]
+      },
+      {
+        id: 4,
+        name: 'Trigger Injection',
+        description: 'Final injection to mature eggs',
+        day: 12,
+        phase: 'retrieval',
+        icon: 'target',
+        color: '#EF4444',
+        isRequired: true,
+        medicalDetails: 'hCG or Lucrin injection to mature eggs for collection. Given at a precise time 34-36 hours exactly before collection.',
+        whatToExpect: 'Some abdominal heaviness.',
+        tips: [
+          'Set multiple reminders',
+          'Have partner/friend help',
+          'Rest afterwards'
+        ]
+      },
+      {
+        id: 5,
+        name: 'Egg Collection',
+        description: 'Collect and freeze mature eggs',
+        day: 14,
+        phase: 'retrieval',
+        icon: 'egg',
+        color: '#F97316',
+        isRequired: true,
+        medicalDetails: 'Eggs aspirated via transvaginal ultrasound under sedation. Eggs will be frozen post collection.',
+        whatToExpect: 'Day procedure, mild cramping/bloating, spotting afterwards.',
+        tips: [
+          'Take the day off',
+          'Have a heat pack ready',
+          'Avoid driving after anaesthetic'
+        ]
+      }
+    ],
+    medications: [
+      {
+        name: 'FSH Injections',
+        type: 'Ovarian Stimulation',
+        phase: 'stimulation',
+        dailyDose: 'Higher doses than IVF',
+        duration: '8-12 days',
+        instructions: 'Daily injections, rotate sites',
+        sideEffects: 'Bloating, mood swings, headaches'
+      },
+      {
+        name: 'GnRH Antagonist',
+        type: 'Ovulation Prevention',
+        phase: 'stimulation',
+        dailyDose: 'As prescribed',
+        duration: '4-6 days',
+        instructions: 'Prevent premature ovulation',
+        sideEffects: 'Minimal'
+      }
+    ],
+    tracking: [
+      'injection_technique',
+      'side_effects',
+      'follicle_development',
+      'emotional_support'
+    ],
+    expectedOutcomes: {
+      ageFactors: 'Better outcomes under 35',
+      eggNumbers: '10-20 eggs typical',
+      futureUse: 'Available when ready for pregnancy'
+    }
+  },
+
+  DONOR_CONCEPTION: {
+    id: 'donor_conception',
+    name: 'Donor Conception',
+    description: 'Conception using donor sperm or eggs',
+    duration: 60, // Longer due to counselling and matching process
+    phases: ['counselling', 'screening', 'matching', 'treatment'],
+    milestones: [
+      {
+        id: 1,
+        name: 'Counselling Session',
+        description: 'Mandatory counselling for all parties',
+        day: 1,
+        phase: 'counselling',
+        icon: 'users',
+        color: '#3B82F6',
+        isRequired: true,
+        medicalDetails: 'Mandatory counselling for recipient (and partner if applicable).',
+        whatToExpect: 'Explores implications of donor use for child, family, and future.',
+        tips: [
+          'Write questions in advance',
+          'Be honest about concerns',
+          'Take time to process information'
+        ]
+      },
+      {
+        id: 2,
+        name: 'Donor Screening & Legal Checks',
+        description: 'Complete donor approval process',
+        day: 14,
+        phase: 'screening',
+        icon: 'shield',
+        color: '#10B981',
+        isRequired: true,
+        medicalDetails: 'Donor\'s infectious disease screening, genetic testing, and legal paperwork.',
+        whatToExpect: 'Waiting period until approval complete.',
+        tips: [
+          'Ask for clinic\'s donor matching wait times — they vary greatly',
+          'Use waiting time for emotional preparation',
+          'Consider support groups'
+        ]
+      },
+      {
+        id: 3,
+        name: 'Donor Matching',
+        description: 'Select appropriate donor',
+        day: 30,
+        phase: 'matching',
+        icon: 'search',
+        color: '#8B5CF6',
+        isRequired: true,
+        medicalDetails: 'Review available donors and make selection based on preferences',
+        whatToExpect: 'Review donor profiles and make selection',
+        tips: [
+          'Consider physical characteristics',
+          'Think about personality traits',
+          'Discuss with partner thoroughly'
+        ]
+      },
+      {
+        id: 4,
+        name: 'Treatment Start',
+        description: 'Begin chosen fertility treatment',
+        day: 45,
+        phase: 'treatment',
+        icon: 'heart',
+        color: '#EC4899',
+        isRequired: true,
+        medicalDetails: 'Same steps as whichever treatment is chosen.',
+        whatToExpect: 'Depends on pathway selected.',
+        tips: [
+          'Seek peer support (many find donor conception emotionally complex)',
+          'Continue counselling if helpful',
+          'Stay connected with support network'
+        ]
+      }
+    ],
+    medications: [
+      {
+        name: 'Treatment Dependent',
+        type: 'Varies',
+        phase: 'treatment',
+        dailyDose: 'As per chosen treatment',
+        duration: 'Varies',
+        instructions: 'Same as IUI, IVF, or FET protocol',
+        sideEffects: 'As per chosen treatment'
+      }
+    ],
+    tracking: [
+      'counselling_sessions',
+      'legal_requirements',
+      'emotional_wellbeing',
+      'treatment_progress'
+    ],
+    expectedOutcomes: {
+      waitTimes: 'Variable by clinic',
+      successRates: 'Similar to standard treatments',
+      emotionalSupport: 'Ongoing counselling available'
+    }
+  }
+};
+
+// Utility functions for working with cycle configurations
+export const getCycleById = (cycleId) => {
+  return CYCLE_TYPES[cycleId] || null;
+};
+
+export const getMilestonesByPhase = (cycleId, phase) => {
+  const cycle = getCycleById(cycleId);
+  return cycle ? cycle.milestones.filter(m => m.phase === phase) : [];
+};
+
+export const getCurrentMilestone = (cycleId, currentDay) => {
+  const cycle = getCycleById(cycleId);
+  if (!cycle) return null;
+  
+  // Find milestone that's closest to current day
+  let closestMilestone = null;
+  let smallestDiff = Infinity;
+  
+  cycle.milestones.forEach(milestone => {
+    const diff = Math.abs(milestone.day - currentDay);
+    if (diff < smallestDiff) {
+      smallestDiff = diff;
+      closestMilestone = milestone;
+    }
+  });
+  
+  return closestMilestone;
+};
+
+export const getUpcomingMilestones = (cycleId, currentDay, limit = 3) => {
+  const cycle = getCycleById(cycleId);
+  if (!cycle) return [];
+  
+  return cycle.milestones
+    .filter(milestone => milestone.day > currentDay)
+    .slice(0, limit);
+};
+
+export const calculateProgress = (cycleId, currentDay) => {
+  const cycle = getCycleById(cycleId);
+  if (!cycle) return 0;
+  
+  return Math.min((currentDay / cycle.duration) * 100, 100);
+};
+
+export const getMedicationsByPhase = (cycleId, phase) => {
+  const cycle = getCycleById(cycleId);
+  return cycle ? cycle.medications.filter(med => med.phase === phase) : [];
+};
+
+export const getMilestoneDetails = (cycleId, milestoneId) => {
+  const cycle = getCycleById(cycleId);
+  if (!cycle) return null;
+  
+  return cycle.milestones.find(m => m.id === milestoneId) || null;
+};
+
+// Default export for easy importing
+export default CYCLE_TYPES;
