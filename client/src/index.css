@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 97%); /* #F7F7F7 - Very Light Gray */
+  --foreground: hsl(0, 0%, 25%); /* #404040 - Soft Dark Gray */
+  --card: hsl(0, 0%, 100%); /* #FFFFFF - White */
+  --card-foreground: hsl(0, 0%, 25%); /* #404040 - Soft Dark Gray */
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(0, 0%, 25%);
+  --primary: hsl(74, 19%, 69%); /* #b7bea0 - Muted Sage Green */
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(0, 0%, 94%); /* #F0F0F0 - Light Gray */
+  --secondary-foreground: hsl(0, 0%, 30%);
+  --muted: hsl(74, 15%, 92%); /* Very Light Sage */
+  --muted-foreground: hsl(0, 0%, 50%); /* #808080 - Medium Gray */
+  --accent: hsl(74, 15%, 88%); /* Light Sage Background */
+  --accent-foreground: hsl(0, 0%, 30%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(0, 0%, 88%); /* #E0E0E0 - Soft Border */
+  --input: hsl(0, 0%, 100%);
+  --ring: hsl(74, 19%, 69%); /* #b7bea0 - Muted Sage Green */
+  --chart-1: hsl(74, 19%, 69%);
+  --chart-2: hsl(74, 15%, 75%);
+  --chart-3: hsl(74, 12%, 80%);
+  --chart-4: hsl(74, 10%, 85%);
+  --chart-5: hsl(74, 16%, 65%);
+  --sidebar: hsl(0, 0%, 100%);
+  --sidebar-foreground: hsl(0, 0%, 9%);
+  --sidebar-primary: hsl(0, 0%, 20%);
+  --sidebar-primary-foreground: hsl(0, 0%, 100%);
+  --sidebar-accent: hsl(0, 0%, 96%);
+  --sidebar-accent-foreground: hsl(0, 0%, 9%);
+  --sidebar-border: hsl(0, 0%, 90%);
+  --sidebar-ring: hsl(0, 0%, 20%);
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+  --radius: 16px;
+  --shadow-2xs: 0px 1px 2px 0px hsla(0, 0%, 0%, 0.05);
+  --shadow-xs: 0px 1px 2px 0px hsla(0, 0%, 0%, 0.05);
+  --shadow-sm: 0px 1px 3px 0px hsla(0, 0%, 0%, 0.1), 0px 1px 2px -1px hsla(0, 0%, 0%, 0.1);
+  --shadow: 0px 1px 3px 0px hsla(0, 0%, 0%, 0.1), 0px 1px 2px -1px hsla(0, 0%, 0%, 0.1);
+  --shadow-md: 0px 4px 6px -1px hsla(0, 0%, 0%, 0.1), 0px 2px 4px -2px hsla(0, 0%, 0%, 0.1);
+  --shadow-lg: 0px 10px 15px -3px hsla(0, 0%, 0%, 0.1), 0px 4px 6px -4px hsla(0, 0%, 0%, 0.1);
+  --shadow-xl: 0px 20px 25px -5px hsla(0, 0%, 0%, 0.1), 0px 8px 10px -6px hsla(0, 0%, 0%, 0.1);
+  --shadow-2xl: 0px 25px 50px -12px hsla(0, 0%, 0%, 0.25);
+  --spacing: 0.25rem;
+}
+
+.dark {
+  --background: hsl(0, 0%, 9%);
+  --foreground: hsl(0, 0%, 91%);
+  --card: hsl(0, 0%, 12%);
+  --card-foreground: hsl(0, 0%, 85%);
+  --popover: hsl(0, 0%, 9%);
+  --popover-foreground: hsl(0, 0%, 91%);
+  --primary: hsl(0, 0%, 80%);
+  --primary-foreground: hsl(0, 0%, 9%);
+  --secondary: hsl(0, 0%, 25%);
+  --secondary-foreground: hsl(0, 0%, 85%);
+  --muted: hsl(0, 0%, 15%);
+  --muted-foreground: hsl(0, 0%, 55%);
+  --accent: hsl(0, 0%, 15%);
+  --accent-foreground: hsl(0, 0%, 80%);
+  --destructive: hsl(0, 72%, 50%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(0, 0%, 15%);
+  --input: hsl(0, 0%, 12%);
+  --ring: hsl(0, 0%, 80%);
+  --chart-1: hsl(0, 0%, 80%);
+  --chart-2: hsl(0, 0%, 60%);
+  --chart-3: hsl(0, 0%, 40%);
+  --chart-4: hsl(0, 0%, 30%);
+  --chart-5: hsl(0, 0%, 70%);
+  --sidebar: hsl(0, 0%, 12%);
+  --sidebar-foreground: hsl(0, 0%, 85%);
+  --sidebar-primary: hsl(0, 0%, 80%);
+  --sidebar-primary-foreground: hsl(0, 0%, 9%);
+  --sidebar-accent: hsl(0, 0%, 15%);
+  --sidebar-accent-foreground: hsl(0, 0%, 80%);
+  --sidebar-border: hsl(0, 0%, 15%);
+  --sidebar-ring: hsl(0, 0%, 80%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+  }
+
+  /* Prevent images and media from causing horizontal overflow */
+  img,
+  video,
+  iframe,
+  embed,
+  object {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Ensure tables don't overflow */
+  table {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.gradient-bg {
+  background: hsl(0, 0%, 100%);
+}
+
+.progress-ring {
+  transform: rotate(-90deg);
+}
+
+.progress-ring circle {
+  fill: transparent;
+  stroke: hsl(24, 45%, 84%);
+  stroke-width: 4;
+}
+
+.progress-ring .progress {
+  stroke: hsl(20, 25%, 60%);
+  stroke-linecap: round;
+  transition: stroke-dasharray 0.5s ease;
+}
+
+.bottom-nav-item.active {
+  color: hsl(20, 25%, 60%);
+}
+
+/* Hide scrollbar while maintaining scrollability */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

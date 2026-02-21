@@ -1,0 +1,124 @@
+{
+  "articles": [
+    {
+      "id": "ivf-process",
+      "title": "A guide to the IVF Process",
+      "summary": "Detailed guide for what to expect with an IVF process",
+      "url": "https://www.ivf.com.au/your-step-by-step-guide-to-the-ivf-process",
+      "category": "IVF",
+      "tags": ["IVF"]
+    },
+    {
+      "id": "egg-retrieval",
+      "title": "Egg retrieval: what to expect & recovery",
+      "summary": "Detailed guide to an egg retrieval",
+      "url": "https://www.newlifeivf.com.au/your-guide-to-a-successful-egg-collection/?utm_source=chatgpt.com",
+      "category": "Egg",
+      "tags": ["Egg"]
+    },
+    {
+      "id": "embryo-grading",
+      "title": "Embryo culture and grading (full guide)",
+      "summary": "Explanation of embryo grading according to Adora fertility",
+      "url": "https://www.adorafertility.com.au/how-embryos-are-graded/?utm_source=chatgpt.com",
+      "category": "Embryo",
+      "tags": ["Egg", "Embryo"]
+    },
+    {
+      "id": "fet",
+      "title": "Frozen Embryo Transfers",
+      "summary": "What is a frozen embryo transfer",
+      "url": "https://www.lifefertility.com.au/resources/factsheets/frozen-embryo-transfer/?utm_source=chatgpt.com",
+      "category": "FET",
+      "tags": ["Embryo", "FET", "Egg"]
+    },
+    {
+      "id": "ohss",
+      "title": "What is OHSS",
+      "summary": "Information on OHSS",
+      "url": "https://www.mivf.com.au/sites/mivf/files/2020-08/MVF01%20OHSS%20Factsheet%20July%202020_2.pdf?utm_source=chatgpt.com",
+      "category": "OHSS",
+      "tags": ["OHSS", "retrieval", "IVF"]
+    },
+    {
+      "id": "latest-findings",
+      "title": "Latest Research",
+      "summary": "Interested research from Virtus",
+      "url": "https://www.ivf.com.au/about-us/latest-research",
+      "category": "IVF",
+      "tags": ["IVF"]
+    },
+    {
+      "id": "ai-algorithm",
+      "title": "New AI algorithm sparks hope for infertile men in Australia",
+      "summary": "IVF Australia's new AI algorithm sparks hope for infertile men in Australia",
+      "url": "https://www.ivf.com.au/blog/new-ai-algorithm-for-infertile-men",
+      "category": "AI",
+      "tags": ["IVF", "AI", "Males Infertility"]
+    },
+    {
+      "id": "art-intelligence",
+      "title": "How artificial intelligence is improving IVF outcomes",
+      "summary": "How artificial intelligence is improving IVF outcomes",
+      "url": "https://www.ivf.com.au/blog/improving-IVF-success-artificial-intelligence",
+      "category": "AI",
+      "tags": ["AI"]
+    },
+    {
+      "id": "embryo-culture",
+      "title": "Embryo Culture Environmental Impacts",
+      "summary": "Does single embryo culture under atmospheric or reduced oxygen alter preimplantation metabolism and post-implantation development compared with culture in groups?",
+      "url": "https://www.ivf.com.au/about-us/latest-research/individual-culture-and-atmospheric-oxygen-during-culture",
+      "category": "Embryo",
+      "tags": ["Embryo"]
+    },
+    {
+      "id": "success-rates",
+      "title": "Success rates",
+      "summary": "Success rates of IVF",
+      "url": "https://www.ivf.com.au/success-rates/ivf-success-rates",
+      "category": "IVF",
+      "tags": ["Success", "IVF"]
+    },
+    {
+      "id": "fvr",
+      "title": "Frozen is as good as fresh",
+      "summary": "New Australian study is good news for women who are thinking about freezing their eggs",
+      "url": "https://www.virtushealth.com.au/investor-centre/asx-announcements/frozen-is-as-good-as-fresh-new-australian-study-is-good-news-for-women-who-are-thinking-about",
+      "category": "FET",
+      "tags": ["Embryo", "FET", "Egg"]
+    },
+    {
+      "id": "miscarriages",
+      "title": "Understanding Miscarriages",
+      "summary": "Detailed explanation of miscarriages",
+      "url": "https://www.thewomens.org.au/health-information/pregnancy-and-birth/pregnancy-problems/early-pregnancy-problems/miscarriage",
+      "category": "Miscarriage",
+      "tags": ["Miscarriage"]
+    },
+    {
+      "id": "what-is-dnc",
+      "title": "What to expect at a D&C",
+      "summary": "What you can expect when having a D&C",
+      "url": "https://www.mayoclinic.org/tests-procedures/dilation-and-curettage/about/pac-20384910",
+      "category": "Miscarriage",
+      "tags": ["Miscarriage"]
+    },
+    {
+      "id": "recurring-misc",
+      "title": "Recurrent Miscarriage",
+      "summary": "What recurrent miscarriages may mean",
+      "url": "https://miscarriageaustralia.com.au/understanding-miscarriage/recurrent-miscarriage/",
+      "category": "Miscarriage",
+      "tags": ["Miscarriage"]
+    },
+    {
+      "id": "icsi",
+      "title": "IVF vs ICSI",
+      "summary": "Difference between IVF and ICSI",
+      "url": "https://access.org.au/wp-content/uploads/2010/01/17-ivf-and-icsi.pdf",
+      "category": "IVF",
+      "tags": ["IVF", "ICSI"]
+    }
+  ]
+}
